@@ -1,6 +1,6 @@
 {
   "name": "react-easy-store",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "React Store made easy",
   "main": "lib",
   "jsnext:main": "src",

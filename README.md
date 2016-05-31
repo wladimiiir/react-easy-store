@@ -5,7 +5,7 @@ React Store made easy.
 Redux is cool, but I have never understood, why do I need to write so much boilerplate just to change (global) state, which would update my component with new data. With this store I have iterated to the store which API is simple, yet it does the job.
 
 ### Current Version
-**0.1.8** - should be without issues, but I keep it still under development version as there are few things I would like to extend.
+**0.1.19** - should be without issues, but I keep it still under development version as there are few things I would like to extend.
 
 ### Installation
 ```
