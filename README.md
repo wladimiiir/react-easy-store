@@ -5,7 +5,7 @@ React Store made easy.
 Redux is cool, but I have never understood, why do I need to write so much boilerplate just to change (global) state, which would update my component with new data. With this store I have iterated to the store which API is simple, yet it does the job.
 
 ### Current Version
-**0.1.19** - should be without issues, but I keep it still under development version as there are few things I would like to extend.
+**0.1.20** - should be without issues, but I keep it still under development version as there are few things I would like to extend.
 
 ### Installation
 ```
@@ -17,7 +17,7 @@ npm install react-easy-store --save
 
 ```connect = (Component as ReactComponent) => (storeProps as object) => (otherProps as object) => void```
 
-Example
+__Example__
 ```
 import store from 'react-easy-store'
 import LoginComponent from './components/LoginComponent.js' //your whatever component connected to with store entries
@@ -39,9 +39,10 @@ const LoginContainer = store.connect(MyComponent)({
 ```
 
 **Updating state in store**
+
 ```setState = (newState as object) => void```
 
-Example
+__Example__
 ```
 import store from 'react-easy-store'
 ...
@@ -52,9 +53,10 @@ store.setState({
 This will automatically force render method of LogicContainer component and the view gets updated. This can be called from Redux-like actions or wherever else (depends on the choice of your architecture).
 
 **Getting state from store**
+
 ```getState = (...stateKeys) => object```
 
-Example
+__Example__
 ```
 import store from 'react-easy-store'
 ...
