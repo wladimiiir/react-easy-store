@@ -47,7 +47,7 @@ import store from 'react-easy-store'
 ...
 store.setState({
   username: "john.doe"
-)};
+});
 ```
 This will automatically force render method of LogicContainer component and the view gets updated. This can be called from Redux-like actions or wherever else (depends on the choice of your architecture).
 
