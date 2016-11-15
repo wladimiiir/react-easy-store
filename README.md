@@ -22,7 +22,7 @@ __Example__
 import store from 'react-easy-store'
 import LoginComponent from './components/LoginComponent.js' //your whatever component connected to with store entries
 
-const LoginContainer = store.connect(MyComponent)({
+const LoginContainer = store.connect(LoginComponent)({
   loginUsername: "username"
 })()
 ```
@@ -30,7 +30,7 @@ In this use case MyComponent will be injected with prop `loginUsername` which wi
 
 You can use `otherProps` if you need to inject additional properties to your component:
 ```
-const LoginContainer = store.connect(MyComponent)({
+const LoginContainer = store.connect(LoginComponent)({
   loginUsername: "username"
 })({
   login: (data) => doLogin(data),
