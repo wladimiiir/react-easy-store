@@ -26,7 +26,7 @@ const LoginContainer = store.connect(LoginComponent)({
   loginUsername: "username"
 })()
 ```
-In this use case MyComponent will be injected with prop `loginUsername` which will equal to value from store with key `username`. So the key is your prop name and value is string which refers to key of an entry in the store.
+In this use case LoginComponent will be injected with prop `loginUsername` which will equal to value from store with key `username`. So the key is your prop name and value is string which refers to key of an entry in the store.
 
 You can use `otherProps` if you need to inject additional properties to your component:
 ```
